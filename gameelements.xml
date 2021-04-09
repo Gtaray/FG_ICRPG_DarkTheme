@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<textsettings>
+		<selectioncolor>666FC2E9</selectioncolor>
+		<icon link="button_link" linkshare="button_link_share" emptylink="button_link_empty" chat="button_speak" />
+		<font simple="sheettext" normal="reference-r" bold="reference-b" italic="reference-i" bolditalic="reference-bi" title="reference-h" />
+	</textsettings>
+
+	<hotkeybar>
+		<frame>hotkeybox</frame>
+		<location offset="0" height="33" />
+		<title frame="hotkeytitlebox" frameoffset="2,0,5,2" margin="2,1" font="hotkey" />
+		<label margin="10,12" font="hotkey" />
+		<iconmargins>0,10,0,3</iconmargins>
+	</hotkeybar>
+</root>

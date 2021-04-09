@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+<!-- 
+	Colors used
+	Darkest gray for textboxes	1e1e1e
+	Slightly lighter grey
+
+-->
+<root>
+	<!-- Sidebar -->
+	<framedef name="button_sidebar_dockitem">
+		<bitmap file="graphics/frames/button_sidebar.png" />
+		<offset>8,8,8,8</offset>
+	</framedef>
+	<framedef name="button_sidebar_dockitem_down">
+		<bitmap file="graphics/frames/button_sidebar_down.png" />
+		<offset>8,8,8,8</offset>
+	</framedef>
+	<framedef name="button_sidebar_dockitem_hover">
+		<bitmap file="graphics/frames/button_sidebar_hover.png" />
+		<offset>8,8,8,8</offset>
+	</framedef>
+
+	<!-- Desktop Background -->
+	<framedef name="desktop">
+		<bitmap file="graphics/frames/desktop.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
+	<framedef name="shortcuts">
+		<bitmap file="graphics/frames/shortcut.jpg" />
+		<offset>2,3,2,8</offset>
+	</framedef>
+
+	<!-- Windows -->
+	<framedef name="windowtitle">
+		<bitmap file="graphics/frames/windowtitle.png" />
+		<offset>25,0,30,0</offset>
+	</framedef><framedef name="tabs">
+		<bitmap file="graphics/frames/tabs.png" />
+		<topleft rect="0,0,18,73" />
+		<left rect="0,73,18,335" />
+		<bottomleft rect="0,408,18,86" />
+	</framedef>
+	
+	<!-- Headers -->
+
+	<!-- Lists -->
+	<framedef name="rowshade">
+		<bitmap file="graphics/frames/rowshade.png" />
+		<middle rect="0,0,200,100" />
+	</framedef>
+	<framedef name="search">
+		<bitmap file="graphics/frames/search.png" />
+		<offset>17,5,1,5</offset>
+		<topleft rect="0,0,17,30" />
+	</framedef>
+	<framedef name="search_active">
+		<bitmap file="graphics/frames/search_active.png" />
+		<offset>17,5,1,5</offset>
+		<topleft rect="0,0,17,30" />
+	</framedef>
+	<framedef name="filter">
+		<bitmap file="graphics/frames/filter.png" />
+		<offset>1,5,1,5</offset>
+	</framedef>
+	<framedef name="filter_active">
+		<bitmap file="graphics/frames/filter_active.png" />
+		<offset>1,5,1,5</offset>
+	</framedef>
+
+	<!-- Buttons -->
+	<framedef name="buttonup">
+		<bitmap file="graphics/frames/buttonup.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="buttonhover">
+		<bitmap file="graphics/frames/buttonhover.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="buttondown">
+		<bitmap file="graphics/frames/buttondown.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- Control Frames -->
+	<framedef name="groupbox">
+		<bitmap file="graphics/frames/groupbox.png" />
+		<offset>17,15,20,19</offset>
+	</framedef>
+	<framedef name="fielddark">
+		<bitmap file="graphics/frames/fielddark.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="fielddice">
+		<bitmap file="graphics/frames/fielddice.png" />
+		<topleft rect="0,0,12,12" />
+		<top rect="12,0,200,12" />
+		<topright rect="212,0,12,12" />
+		<left rect="0,12,12,187" />
+		<middle rect="12,12,200,187" />
+		<right rect="212,12,12,187" />
+		<bottomleft rect="0,199,12,12" />
+		<bottom rect="12,199,200,12" />
+		<bottomright rect="212,199,12,12" />
+		<decal rect="175,212,49,16" />
+	</framedef>
+	<framedef name="fieldlight">
+		<bitmap file="graphics/frames/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="fieldfocus">
+		<bitmap file="graphics/frames/fieldfocus.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- Scrollbar -->
+	<framedef name="scrollbar_base">
+		<bitmap file="graphics/frames/scrollbar.png" />
+		<top rect="0,0,20,14" />
+		<middle rect="22,0,20,62" />
+		<bottom rect="0,48,20,14" />
+	</framedef>
+	<framedef name="scrollbutton_normal">
+		<bitmap file="graphics/frames/scrollbutton_normal.png" />
+		<top rect="0,0,20,16" />
+		<middle rect="0,16,20,8" />
+		<bottom rect="0,24,20,16" />
+	</framedef>
+
+	<!-- Dropdown Lists -->
+	<framedef name="tempmodsmall">
+		<bitmap file="graphics/frames/tempmodsmall.png" />
+		<offset>12,12,11,12</offset>
+	</framedef>
+	<framedef name="combobox_list">
+		<bitmap file="graphics/frames/combobox_list.png"/>
+		<offset>1,1,1,1</offset>
+	</framedef>
+	<!-- <framedef name="combobox_scrollbar">
+		<bitmap file="graphics/frames/combobox_scrollbar.png"/>
+		<offset>1,1,1,1</offset>
+	</framedef> -->
+
+	<!-- Chatbox -->
+	<framedef name="chatbox">
+		<bitmap file="graphics/frames/chatbox.png" />
+		<offset>60,100,85,100</offset>
+	</framedef>
+	<framedef name="chatentry">
+		<bitmap file="graphics/frames/chatentry.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
+	<framedef name="chatframe_story">
+		<bitmap file="graphics/frames/chatframe_story.png" />
+		<offset>18,18,17,17</offset>
+	</framedef>
+	<framedef name="chatframe_chat">
+		<bitmap file="graphics/frames/chatframe_chat.png" />
+		<offset>17,17,7,7</offset>
+	</framedef>
+	<framedef name="chatframe_whisper">
+		<bitmap file="graphics/frames/chatframe_whisper.png" />
+		<offset>17,17,7,7</offset>
+	</framedef>
+	<framedef name="diebox">
+		<bitmap file="graphics/frames/diebox.png" />
+		<offset>16,16,16,16</offset>
+	</framedef>
+
+	<!-- Identity List -->
+
+	<!-- Modifier Stack -->
+
+	<!-- Dice Tower -->
+	<framedef name="dicetower_normal">
+		<bitmap>graphics/frames/dicetower_normal.png</bitmap>
+		<middle>0,0,90,90</middle>
+	</framedef>
+	<framedef name="dicetower_drop">
+		<bitmap>graphics/frames/dicetower_drop.png</bitmap>
+		<middle>0,0,90,90</middle>
+	</framedef>
+
+	<!-- Hot key bar -->	
+	<framedef name="hotkeybox">
+		<bitmap file="graphics/frames/shortcut.jpg" />
+		<offset>2,3,2,8</offset>
+	</framedef>
+	<framedef name="hotkeytitlebox">
+		<bitmap file="graphics/frames/shortcuttitle.jpg" />
+		<offset>2,3,2,3</offset>
+	</framedef>
+
+	<!-- Character Selection -->
+	<framedef name="charselect">
+		<bitmap file="graphics/frames/charselect.png" />
+		<offset>205,100,184,108</offset>
+		<insideoffset>0,0,5,7</insideoffset>
+	</framedef>
+	<framedef name="charselectentry">
+		<bitmap file="graphics/frames/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- Modules -->
+	<framedef name="moduleselectentry">
+		<bitmap file="graphics/frames/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- Reference -->
+	<!-- <framedef name="reference-section">
+		<bitmap file="graphics/frames/reference-section.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
+	<framedef name="reference-chapter">
+		<bitmap file="graphics/frames/reference-chapter.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> -->
+
+	<!-- Reference Blocks -->
+	<!-- <framedef name="referenceblock-sidebar">
+		<bitmap file="graphics/frames/refblock_sidebar.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-text1">
+		<bitmap file="graphics/frames/refblock_text1.png" />
+		<offset>50,60,50,60</offset>
+	</framedef>
+	<framedef name="referenceblock-text2">
+		<bitmap file="graphics/frames/refblock_text2.png" />
+		<offset>280,50,281,50</offset>
+	</framedef>
+	<framedef name="referenceblock-text3">
+		<bitmap file="graphics/frames/refblock_text3.png" />
+		<offset>50,60,50,60</offset>
+	</framedef>
+	<framedef name="referenceblock-text4">
+		<bitmap file="graphics/frames/refblock_text4.png" />
+		<offset>50,60,50,60</offset>
+	</framedef>
+	<framedef name="referenceblock-text5">
+		<bitmap file="graphics/frames/refblock_text5.png" />
+		<offset>100,50,100,50</offset>
+	</framedef>
+	<framedef name="referenceblock-book">
+		<bitmap file="graphics/frames/refblock_book.png" />
+		<offset>60,53,70,47</offset>
+	</framedef>
+	<framedef name="referenceblock-page">
+		<bitmap file="graphics/frames/refblock_page.png" />
+		<topleft rect="0,0,25,50" />
+		<top rect="25,0,250,50" />
+		<topright rect="275,0,50,50" />
+		<left rect="0,50,25,50" />
+		<middle rect="25,50,250,50" />
+		<right rect="275,50,50,50" />
+		<bottomleft rect="0,100,25,50" />
+		<bottom rect="25,100,250,50" />
+		<bottomright rect="275,100,50,50" />
+	</framedef>
+	<framedef name="referenceblock-picture">
+		<bitmap file="graphics/frames/refblock_picture.png" />
+		<offset>32,30,32,30</offset>
+	</framedef> -->
+
+	<!-- Utility Boxes -->
+	<framedef name="utilitybox">
+		<bitmap file="graphics/frames/recordsheet.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+	<framedef name="utilitybox2">
+		<bitmap file="graphics/frames/utilitybox2.png" />
+		<offset>113,156,93,97 </offset>
+		<insideoffset>0,0,7,8</insideoffset>
+	</framedef>
+	<framedef name="utilitybox3">
+		<bitmap file="graphics/frames/charselect.png" />
+		<offset>74,75,77,51</offset>
+		<insideoffset>0,0,5,7</insideoffset>
+	</framedef>
+	<framedef name="referencepage">
+		<bitmap file="graphics/frames/recordsheet.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+	<framedef name="referencelist">
+		<bitmap file="graphics/frames/recordsheet.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+
+	<!-- Token Bag -->
+	<framedef name="tokenbag">
+		<bitmap file="graphics/frames/tokenbag.png" />
+		<offset>164,158,166,162 </offset>
+		<insideoffset>0,0,7,8</insideoffset>
+	</framedef>
+
+	<!-- Calendar -->
+	<framedef name="calendar">
+		<bitmap file="graphics/frames/recordsheet.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+	<framedef name="calendarselectentry">
+		<bitmap file="graphics/frames/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="calendarmonthentry">
+		<bitmap file="graphics/frames/fielddark.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="campaignlistwithtabs">
+		<bitmap file="graphics/frames/storybox.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+	<framedef name="calendarhighlight">
+		<bitmap file="graphics/frames/calendarhighlight.png"/>
+		<offset>5,5,5,5</offset>
+    </framedef>
+
+	<!-- Combat Tracker -->
+	<framedef name="ctbox">
+		<bitmap file="graphics/frames/ctbox.png" />
+		<offset>32,32,21,52</offset>
+		<insideoffset>0,0,7,7</insideoffset>
+	</framedef>
+	<framedef name="ct_groupbox">
+		<bitmap file="graphics/frames/ct_groupbox.png" />
+		<offset>19,22,20,24</offset>
+	</framedef>
+
+	<!-- Party Sheet -->
+	<framedef name="partysheet">
+		<bitmap file="graphics/frames/recordsheet.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+	<framedef name="partysheetentry">
+		<bitmap file="graphics/frames/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- Manual Roll -->
+
+	<!-- Characters -->
+	<framedef name="charsheet">
+		<bitmap file="graphics/frames/charsheet.png" />
+		<offset>85,135,80,59</offset>
+		<insideoffset>0,0,0,0</insideoffset>
+	</framedef> 
+	<framedef name="charsheet_header">
+		<bitmap file="graphics/frames/header.png" />
+		<offset>4,18,4,3</offset>
+	</framedef> 
+	<framedef name="charsheethelper">
+		<bitmap file="graphics/frames/charsheet.png" />
+		<offset>50,50,45,45</offset>
+		<insideoffset>0,5,12,14</insideoffset>
+	</framedef>
+	<framedef name="dying">
+		<bitmap file="graphics/frames/dying.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+	<framedef name="armor">
+		<bitmap file="graphics/frames/shield.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+	<framedef name="hearts">
+		<bitmap file="graphics/frames/hearts.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+	<framedef name="hearts_repeating">
+		<bitmap file="graphics/frames/heart_repeating.png" />
+		<offset>1,1,1,1</offset>
+	</framedef> 
+
+	<!-- Images -->
+	<framedef name="imagebox">
+		<bitmap file="graphics/frames/imagebox.png" />
+		<offset>60,30,30,60</offset>
+		<insideoffset>0,0,20,22</insideoffset>
+	</framedef>
+	<framedef name="imagebox_header">
+		<bitmap file="graphics/frames/imagebox_header.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>
+
+	<!-- Story and Notes -->
+	<framedef name="storybox">
+		<bitmap file="graphics/frames/storybox.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+
+	<!-- Other Campaign Records -->
+	<framedef name="recordsheet">
+		<bitmap file="graphics/frames/recordsheet.png" />
+		<offset>149,80,149,71</offset>
+		<insideoffset>0,0,15,13</insideoffset>
+	</framedef>
+
+	<!-- Tokens -->
+
+	<!-- Misc Frames -->
+</root>

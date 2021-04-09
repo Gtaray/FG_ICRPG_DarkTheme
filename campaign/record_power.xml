@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="power_action" merge="join">
+		<sheetdata>
+			<!-- ATTEMPT -->			
+			<button_poweraction name="attemptbutton" merge="join">
+        		<!-- <anchored position="insidetopleft" offset="10,2" /> -->
+				<stateframe>
+				</stateframe>
+				<icon normal="button_action_attempt" pressed="button_action_attempt_down" hover="button_action_attempt_hover" merge="replace" />
+			</button_poweraction>
+	
+			<!-- EFFORT -->
+			<button_poweraction name="effortbutton" merge="join">
+				<!-- <anchored position="insidetopleft" offset="10,2" /> -->
+				<icon normal="button_action_effort" pressed="button_action_effort_down" hover="button_action_effort_hover" merge="replace" />
+			</button_poweraction>
+
+			<!-- HEAL -->
+			<button_poweraction name="healbutton" merge="join">
+				<!-- <anchored position="insidetopleft" offset="10,2" /> -->
+				<icon normal="button_action_heal" pressed="button_action_heal_down" hover="button_action_heal_hover" merge="replace"/>
+			</button_poweraction>
+
+			<!-- EFFECT -->
+			<button_poweraction name="effectbutton" merge="join">
+				<!-- <anchored position="insidetopleft" offset="10,2" /> -->
+				<icon normal="button_action_effect" pressed="button_action_effect_down" hover="button_action_effect_hover" merge="replace"/>
+			</button_poweraction>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="power_action_mini" merge="join">
+		<script file="campaign/scripts/power_action_mini.lua" />
+	</windowclass>
+</root>

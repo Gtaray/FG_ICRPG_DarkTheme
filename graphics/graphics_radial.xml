@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<!-- Spell actions -->
+	<icon name="radial_d4" file="graphics/radial/icon_d4.png" />
+    <icon name="radial_d6" file="graphics/radial/icon_d6.png" />
+    <icon name="radial_d8" file="graphics/radial/icon_d8.png" />
+    <icon name="radial_d10" file="graphics/radial/icon_d10.png" />
+    <icon name="radial_d12" file="graphics/radial/icon_d12.png" />	
+
+    <icon name="radial_attempt" file="graphics/radial/icon_action_attempt.png" />	
+    <icon name="radial_effort" file="graphics/radial/icon_action_effort.png" />	
+    <icon name="radial_effect" file="graphics/radial/icon_action_effect.png" />	
+</root>
