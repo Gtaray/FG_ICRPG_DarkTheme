@@ -215,8 +215,10 @@
 	<icon name="button_menu_down" file="graphics/buttons/button_menu_down.png" />
 	<icon name="button_ctnextround" file="graphics/buttons/button_ctnextround.png" />
 	<icon name="button_ctnextround_down" file="graphics/buttons/button_ctnextround_down.png" />
+	<icon name="button_ctnextround_hover" file="graphics/buttons/button_ctnextround_hover.png" />
 	<icon name="button_ctnextactor" file="graphics/buttons/button_ctnextactor.png" />
 	<icon name="button_ctnextactor_down" file="graphics/buttons/button_ctnextactor_down.png" />
+	<icon name="button_ctnextactor_hover" file="graphics/buttons/button_ctnextactor_hover.png" />
 	<icon name="drag_targeting" file="graphics/icons/drag_targeting.png" />
 
 	<!-- Token Bag -->

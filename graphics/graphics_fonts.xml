@@ -120,15 +120,15 @@
 	<!-- Reference -->
 	<font name="reference-section">
 		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="15" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="reference-chapter">
 		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="20" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="reference-subtitle">
 		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="18" />
-		<color value="000000" />
+		<color value="d6dcdc" />
 	</font>
 	<!-- 'Group' text next to master index-->
 	<font name="reference-header">
@@ -148,44 +148,44 @@
 	</font>
 	<font name="reference-page-header">
 		<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC" size="26" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 
 	<!-- Calendar -->
 	<font name="calendarday">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="calendarday-b">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="calendarday-bi">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="calendarbold">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" bold="true" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="calendarselecttitle">
 		<fgffile name="graphics/fonts/bold-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" bold="true" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="calendarselectbody">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 	<font name="calendarmessage">
 		<fgffile name="graphics/fonts/italic-10.fgf" />
 		<ttf file="graphics/fonts/Candara.ttf" name="Candara SDF" size="15" />
-		<color value="#000000" />
+		<color value="#d6dcdc" />
 	</font>
 
 	<!-- Dice fonts - REQUIRED -->
