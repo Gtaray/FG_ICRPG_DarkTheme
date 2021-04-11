@@ -35,7 +35,7 @@
     <!-- Windows -->
 	<font name="windowtitle">
 		<ttf file="graphics/fonts/nusaliver.ttf" name="nusaliver" size="24" />
-		<color value="#F1F1F1" />
+		<color value="#d6dcdc" />
 		<shadow offset="1,1" color="#808080" />
 	</font>
 	<font name="subwindowsmalltitle">
@@ -288,6 +288,74 @@
 	<font name="sheettext">
 		<fgffile name="graphics/fonts/regular-10.fgf" />
 		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Regular.ttf" name="Noto Sans" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+
+	<!-- Options -->
+	<font name="optionset">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="optiontitle">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="optionbody">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Regular.ttf" name="Noto Sans" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+
+	<!-- Misc -->
+	<font name="list-empty">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Italic.ttf" name="Noto Sans Italic" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="list-empty-ct">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Italic.ttf" name="Noto Sans Italic" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="list-empty-ps">
+		<fgffile name="graphics/fonts/italic-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Italic.ttf" name="Noto Sans Italic" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+
+	<!-- Asset View (FGU) -->
+	<font name="tokenbagasset_grid" version="&gt;=4">
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="tokenbagasset_list" version="&gt;=4">
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="24" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="assetview-path-active" version="&gt;=4">
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="assetview-path-inactive" version="&gt;=4">
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Regular.ttf" name="Noto Sans" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="assetview_empty" version="&gt;=4">
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+
+	<!-- Radial menus and character list -->
+	<font name="mini_name">
+		<fgffile name="graphics/fonts/regular-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Regular.ttf" name="Noto Sans" size="16" />
+		<color value="#d6dcdc" />
+	</font>
+	<font name="mini_name_selected">
+		<fgffile name="graphics/fonts/bold-10.fgf" />
+		<ttf file="graphics/fonts/Noto_Sans/NotoSans-Bold.ttf" name="Noto Sans Bold" size="16" />
 		<color value="#d6dcdc" />
 	</font>
 </root>

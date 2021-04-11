@@ -13,10 +13,15 @@
 	<base>
 		<includefile source="gameelements.xml" />
 		<includefile source="desktop/template_desktop.xml" />
+		<includefile source="common/template_lists.xml" />
 
+		<includefile source="ct/ct_host.xml" />
 		<includefile source="ct/template_ct.xml" />
 		
 		<includefile source="campaign/record_power.xml" />
+		<includefile source="campaign/template_records.xml" />
+
+		<includefile source="utility/utility_calendar.xml" />
 
 		<includefile source="graphics/graphics_fonts.xml" />
 		<includefile source="graphics/graphics_frames.xml" />

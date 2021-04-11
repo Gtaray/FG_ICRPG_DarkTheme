@@ -19,6 +19,8 @@
 	<icon name="button_help_down" file="graphics/buttons/button_help_down.png" />
 	<icon name="button_help_hover" file="graphics/buttons/button_help_hover.png" />
 	<icon name="token_empty" file="graphics/icons/token_empty.png" />
+	<icon name="button_checkon" file="graphics/buttons/button_checkon.png" />
+	<icon name="button_checkoff" file="graphics/buttons/button_checkoff.png" />
 
 	<icon name="button_link" file="graphics/buttons/button_link.png" />
 	<icon name="button_link_down" file="graphics/buttons/button_link_down.png" />
@@ -52,6 +54,9 @@
 	<icon name="button_arrowdown" file="graphics/buttons/button_ctnextactor.png" />
 	<icon name="button_arrowdown_down" file="graphics/buttons/button_ctnextactor_down.png" />
 
+	<icon name="footer_wide" file="graphics/icons/footer_wide.png" />
+	<icon name="footer_narrow" file="graphics/icons/footer_narrow.png" />
+
 	<!-- Chat window -->
 	<icon name="chat_speak" file="graphics/icons/chat_speak.png" />
 	<icon name="chat_story" file="graphics/icons/chat_story.png" />
@@ -81,6 +86,10 @@
 
 	<!-- Dice tower -->
 	<icon name="dicetower_icon" file="graphics/icons/dicetower_icon.png" />
+
+	<!-- Assets -->
+	<icon name="button_asset_prev" file="graphics/icons/asset_arrow_left.png" />
+	<icon name="button_asset_next" file="graphics/icons/asset_arrow_right.png" />
 
 	<!-- Sidebar -->
 	<icon name="button_ct" file="graphics/sidebar/button_ct.png" />
@@ -263,4 +272,10 @@
 	<icon name="visibilityoff" file="graphics/icons/visibilityoff.png" />
 	<icon name="record_identified" file="graphics/icons/record_identified.png" />
 	<icon name="record_unidentified" file="graphics/icons/record_unidentified.png" />
+
+	<!-- Tabs -->
+	<icon name="tab_inventory" file="graphics/tabs/tab_inventory.png" />
+	<icon name="tab_main" file="graphics/tabs/tab_main.png" />
+	<icon name="tab_notes" file="graphics/tabs/tab_notes.png" />
+	<icon name="tab_actions" file="graphics/tabs/tab_actions.png" />
 </root>

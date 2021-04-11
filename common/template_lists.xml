@@ -1,0 +1,173 @@
+<root>
+    <template name="list_text">
+		<windowlist>
+			<child mergerule="resetandadd"></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<allowcreate />
+			<allowdelete />
+			<sortby mergerule="replace"><control>name</control></sortby>
+			<script file="common/scripts/list_text.lua" />
+		</windowlist>
+	</template>
+
+    <template name="masterindex_list">
+		<windowlist name="list">
+			<anchored to="contentanchor">
+				<top anchor="bottom" relation="relative" offset="20" />
+				<left />
+				<right />
+				<bottom parent="bottomanchor" anchor="top" relation="relative" offset="-70" />
+			</anchored>
+			<frame name="groupbox" offset="15,15,20,15" />
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<class>masterindexitem</class>
+			<allowdelete />
+			<useallmodules />
+			<skipempty />
+			<script file="campaign/scripts/masterindex_list.lua" />
+		</windowlist>
+	</template>
+
+    <template name="list_charinv">
+		<windowlist>
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<datasource>.inventorylist</datasource>
+			<class>char_invitem</class>
+			<allowdelete />
+			<script file="campaign/scripts/char_invlist.lua" />
+		</windowlist>
+	</template>
+
+    <template name="list_groupedlist_group_content">
+		<windowlist>
+			<anchored>
+				<top parent="topanchor" anchor="bottom" relation="relative" offset="2" />
+				<left />
+				<right />
+			</anchored>
+			<noscroll />
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<class>reference_groupedlist_groupitem</class>
+			<skipempty />
+			<readonly />
+			<script file="ref/scripts/ref_list.lua" />
+		</windowlist>
+	</template>
+
+    <template name="list_reflist">
+		<windowlist name="list">
+			<anchored to="contentanchor">
+				<top anchor="bottom" relation="relative" offset="15" />
+				<left />
+				<right />
+				<bottom parent="bottomanchor" anchor="top" relation="relative" offset="-20" />
+			</anchored>
+			<frame name="groupbox" offset="15,15,20,15" />
+			<class>reference_list_item</class>
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<skipempty />
+			<readonly />
+			<sortby><control>name</control></sortby>
+			<filter><control>filter</control></filter>
+			<filteron><control>name</control></filteron>
+		</windowlist>
+	</template>
+
+    <template name="list_ref">
+		<windowlist>
+			<anchored to="contentanchor">
+				<top anchor="bottom" relation="relative" offset="20" />
+				<left />
+				<right />
+				<bottom parent="" offset="-65" />
+			</anchored>
+			<frame name="groupbox" offset="15,15,20,15" />
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<filter control="filter" />
+			<filteron control="name" />
+		</windowlist>
+	</template>
+
+    <template name="list_reftablegroupitems">
+		<windowlist>
+			<anchored>
+				<top parent="topanchor" anchor="bottom" relation="relative" offset="2" />
+				<left />
+				<right />
+			</anchored>
+			<noscroll />
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<readonly />
+			<script file="ref/scripts/ref_list.lua" />
+		</windowlist>
+	</template>
+
+    <template name="list_library_pages">
+		<windowlist>
+			<anchored to="booklist" position="right" offset="40,0">
+				<right parent="contentanchor" />
+			</anchored>
+			<frame name="groupbox" offset="15,15,20,15" />
+			<skipempty />
+			<class>library_pagelistentry</class>
+			<child></child>
+			<child><backcolor>100069d5</backcolor></child>
+			<filter><control>filter</control></filter>
+			<filteron><control>name</control></filteron>
+		</windowlist>
+	</template>
+
+	<windowclass name="battle" merge="join">
+		<sheetdata>
+			<windowlist name="npcs" merge="join">
+				<child merge="resetandadd"></child>
+				<child><backcolor>100069d5</backcolor></child>
+			</windowlist>
+		</sheetdata>
+	</windowclass>
+
+    <windowclass name="battlerandom" merge="join">
+        <sheetdata>
+            <windowlist name="npcs" merge="join">
+				<child merge="resetandadd"></child>
+				<child><backcolor>100069d5</backcolor></child>
+			</windowlist>
+        </sheetdata>
+    </windowclass>
+
+    <windowclass name="table_main" merge="join">
+        <sheetdata>
+            <windowlist name="tablerows" merge="join">
+				<child merge="resetandadd"/>
+				<child><backcolor>100069d5</backcolor></child>
+			</windowlist>
+        </sheetdata>
+    </windowclass>
+
+    <windowclass name="ps_inventory" merge="join">
+        <sheetdata>
+            <windowlist name="coins" merge="join">
+				<child merge="resetandadd"></child>
+				<child><backcolor>100069d5</backcolor></child>
+			</windowlist>
+            <windowlist name="items">
+                <child merge="resetandadd"></child>
+				<child><backcolor>100069d5</backcolor></child>
+            </windowlist>
+            <windowlist name="coinlist">
+                <child merge="resetandadd"></child>
+				<child><backcolor>100069d5</backcolor></child>
+            </windowlist>
+            <windowlist name="itemlist">
+                <child merge="resetandadd"></child>
+				<child><backcolor>100069d5</backcolor></child>
+            </windowlist>
+        </sheetdata>
+    </windowclass>
+</root>

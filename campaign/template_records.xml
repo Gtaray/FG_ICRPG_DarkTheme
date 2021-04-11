@@ -1,0 +1,9 @@
+<root>
+    <template name="imagedata_record_step">
+		<imagedatacontrol>
+			<invisible />
+			<color>d6dcdc</color>
+			<backcolor>464646</backcolor>
+		</imagedatacontrol>
+	</template>
+</root>

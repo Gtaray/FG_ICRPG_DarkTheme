@@ -34,9 +34,24 @@
     <icon name="tool_mask_20" file="graphics/toolbar/tool_mask_20.png" />
     <icon name="tool_unmask_20" file="graphics/toolbar/tool_unmask_20.png" />
 
+    <icon name="tool_zoomtofit_30" file="graphics/toolbar/tool_zoomtofit_30.png" />
+
     
 	<framedef name="toolbar_back">
 		<bitmap file="graphics/toolbar/toolbar_back.png"/>
 		<middle rect="0,0,128,128" />
+	</framedef>
+
+    <framedef name="toolbar_30">
+		<bitmap file="graphics/toolbar/toolbar_30.png"/>
+		<topleft rect="0,0,4,3" />
+		<top rect="4,0,32,3" />
+		<topright rect="62,0,4,3" />
+		<left rect="0,3,4,28" />
+		<middle rect="4,3,32,28" />
+		<right rect="62,3,4,28" />
+		<bottomleft rect="0,31,4,3" />
+		<bottom rect="4,31,32,3" />
+		<bottomright rect="62,31,4,3" />
 	</framedef>
 </root>

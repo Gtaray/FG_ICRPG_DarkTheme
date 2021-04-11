@@ -1,0 +1,16 @@
+<root>
+    <windowclass name="ct_chunks" merge="join">
+		<margins control="0,0,0,2" />
+		<sheetdata>
+			<label_ct name="label_name" merge="join">
+				<color>d6dcdc</color>
+			</label_ct>
+			<label_ct name="label_hp" merge="join">
+				<color>d6dcdc</color>
+			</label_ct>
+			<label_ct name="label_dmg" merge="join">
+				<color>d6dcdc</color>
+			</label_ct>
+		</sheetdata>
+	</windowclass>
+</root>

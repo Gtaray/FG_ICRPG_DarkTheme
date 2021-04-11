@@ -7,7 +7,6 @@
 <!-- 
 	Colors used
 	Darkest gray for textboxes	1e1e1e
-	Slightly lighter grey
 
 -->
 <root>
@@ -33,6 +32,12 @@
 	<framedef name="shortcuts">
 		<bitmap file="graphics/frames/shortcut.jpg" />
 		<offset>2,3,2,8</offset>
+	</framedef>
+
+	<!-- Tooltips -->
+	<framedef name="tooltipbox">
+		<bitmap file="graphics/frames/tooltipbox.png" />
+		<offset>6,4,9,7</offset>
 	</framedef>
 
 	<!-- Windows -->
@@ -226,11 +231,11 @@
 	</framedef>
 
 	<!-- Reference -->
-	<!-- <framedef name="reference-section">
+	<framedef name="reference-section">
 		<bitmap file="graphics/frames/reference-section.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
-	<framedef name="reference-chapter">
+	<!-- <framedef name="reference-chapter">
 		<bitmap file="graphics/frames/reference-chapter.png" />
 		<offset>1,1,1,1</offset>
 	</framedef> -->
@@ -280,6 +285,26 @@
 		<bitmap file="graphics/frames/refblock_picture.png" />
 		<offset>32,30,32,30</offset>
 	</framedef> -->
+	<framedef name="referenceblock-pink">
+		<bitmap file="graphics/frames/refblock_pink.png" />
+		<offset>100,30,100,30</offset>
+	</framedef>
+	<framedef name="referenceblock-blue">
+		<bitmap file="graphics/frames/refblock_blue.png" />
+		<offset>100,30,100,30</offset>
+	</framedef>
+	<framedef name="referenceblock-brown">
+		<bitmap file="graphics/frames/refblock_brown.png" />
+		<offset>100,30,100,30</offset>
+	</framedef>
+	<framedef name="referenceblock-green">
+		<bitmap file="graphics/frames/refblock_green.png" />
+		<offset>100,30,100,30</offset>
+	</framedef>
+	<framedef name="referenceblock-yellow">
+		<bitmap file="graphics/frames/refblock_yellow.png" />
+		<offset>100,30,100,30</offset>
+	</framedef>
 
 	<!-- Utility Boxes -->
 	<framedef name="utilitybox">
@@ -313,6 +338,15 @@
 		<bitmap file="graphics/frames/tokenbag.png" />
 		<offset>164,158,166,162 </offset>
 		<insideoffset>0,0,7,8</insideoffset>
+	</framedef>
+	<framedef name="tokenbagbar">
+		<bitmap file="graphics/frames/tokenbagbar.png" />
+		<left rect="0,0,100,50" />
+		<middle rect="100,0,50,50" />
+	</framedef>
+	<framedef name="tokenbagasset">
+		<bitmap file="graphics/frames/fielddark.png" />
+		<offset>12,12,12,12</offset>
 	</framedef>
 
 	<!-- Calendar -->
@@ -455,4 +489,8 @@
 	<!-- Tokens -->
 
 	<!-- Misc Frames -->
+	<framedef name="mini_name">
+		<bitmap file="graphics/frames/mini_name.png" />
+		<offset>7,7,7,7</offset>
+	</framedef>
 </root>

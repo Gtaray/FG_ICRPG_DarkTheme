@@ -1,0 +1,28 @@
+<root>
+    <windowclass name="calendar_main" merge="join">
+        <script file="utility/scripts/calendar_log.lua" />
+        <sheetdata>
+            <stringcontrol name="viewdate" merge="join">
+                <color>569cd6</color>
+            </stringcontrol>
+            <basicnumber name="currentyear" merge="join">
+				<color>569cd6</color>
+			</basicnumber>
+            <basicstring name="currentepoch" merge="join">
+				<color>569cd6</color>
+			</basicstring>
+            <label name="currenthour" merge="join">
+                <color>569cd6</color>
+            </label>
+            <label name="currentminute" merge="join">
+                <color>569cd6</color>
+            </label>
+            <label name="currentphase" merge="join">
+                <color>569cd6</color>
+            </label>
+        </sheetdata>
+    </windowclass>
+    <windowclass name="calendar_day" merge="join">
+        <script file="utility/scripts/calendar_day.lua" />
+    </windowclass>
+</root>

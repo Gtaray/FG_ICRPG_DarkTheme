@@ -1,4 +1,10 @@
 <root>
+	<template name="label_ct">
+		<label>
+			<color>d6dcdc</color>
+		</label>
+	</template>
+	
     <template name="button_ct_nextround">
 		<buttoncontrol merge="join">
 			<anchored width="33" height="26">
