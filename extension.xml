@@ -9,6 +9,7 @@
 		<ruleset>
 			<name>ICRPG</name>
 		</ruleset>
+		<loadorder>900</loadorder>
 	</properties>
 	<base>
 		<includefile source="gameelements.xml" />
@@ -29,5 +30,12 @@
 		<includefile source="graphics/graphics_portraits.xml" />
 		<includefile source="graphics/graphics_radial.xml" />
 		<includefile source="graphics/graphics_toolbar.xml" />
+
+		<script name="Decals" file="scripts/data_decal.lua" />
+		<string name="option_val_DDCL_as">Altered State</string>
+		<string name="option_val_DDCL_vc">Vigilante City</string>
+		<string name="option_val_DDCL_bs">Blood &amp; Snow</string>
+
+		<script name="ColorManager2" file="scripts/manager_color2.lua" />
 	</base>
 </root>

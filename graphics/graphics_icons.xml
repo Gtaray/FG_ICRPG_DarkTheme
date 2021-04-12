@@ -9,6 +9,9 @@
 	<!-- Official ICRPG Logos -->
 	<icon name="rulesetlogo_ICRPG" file="graphics/icons/runehammer.png" />
 	<icon name="desktopdecal_icrpg" file="graphics/decals/desktopdecal_icrpg.png" />
+	<icon name="desktopdecal_as" file="graphics/decals/desktopdecal_as.png" />
+	<icon name="desktopdecal_bs" file="graphics/decals/desktopdecal_bs.png" />
+	<icon name="desktopdecal_vc" file="graphics/decals/desktopdecal_vc.png" />
 
 	<!-- Common -->
 	<icon name="tabtop" file="graphics/tabs/tabtop.png" />
@@ -278,4 +281,9 @@
 	<icon name="tab_main" file="graphics/tabs/tab_main.png" />
 	<icon name="tab_notes" file="graphics/tabs/tab_notes.png" />
 	<icon name="tab_actions" file="graphics/tabs/tab_actions.png" />
+
+	<!-- Altered State -->
+	<icon name="button_char_inv_enhancement" file="graphics/buttons/button_inv_enhancement.png" />
+    <icon name="action_rage" file="graphics/icons/action_rage.png" />
+    <icon name="action_surge" file="graphics/icons/action_surge.png" />
 </root>

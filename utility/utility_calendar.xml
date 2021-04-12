@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
 <root>
     <windowclass name="calendar_main" merge="join">
         <script file="utility/scripts/calendar_log.lua" />
