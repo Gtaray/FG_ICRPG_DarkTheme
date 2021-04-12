@@ -4,6 +4,12 @@ Fantasy Grounds theme extension for Index Card RPG that gives the game a chill d
 
 IMPORTANT: This theme ONLY works with Fantasy Grounds Unity. The low-contrast makes the fonts illegible in Classic.
 
+## Screenshots
+
+![Overview](https://raw.githubusercontent.com/Gtaray/FG_ICRPG_DarkTheme/main/repo/darktheme_overview.jpg)
+
+![Ref Manual](https://raw.githubusercontent.com/Gtaray/FG_ICRPG_DarkTheme/main/repo/darktheme_refmanual.jpg)
+
 ## Compatibility
 
 This extension is compatible with all ICRPG extensions
