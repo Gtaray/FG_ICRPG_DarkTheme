@@ -3,7 +3,7 @@
 	<announcement text="Dimming things down with the Dark Theme" font="emotefont" />
 	<properties>
 		<name>ICRPG - Dark Theme</name>
-		<version>1.0</version>
+		<version>1.1</version>
 		<author>George Taray</author>
 		<description>An alternative dark theme for ICRPG.</description>
 		<ruleset>

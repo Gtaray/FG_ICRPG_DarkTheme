@@ -339,11 +339,6 @@
 		<offset>164,158,166,162 </offset>
 		<insideoffset>0,0,7,8</insideoffset>
 	</framedef>
-	<framedef name="tokenbagbar">
-		<bitmap file="graphics/frames/tokenbagbar.png" />
-		<left rect="0,0,100,50" />
-		<middle rect="100,0,50,50" />
-	</framedef>
 	<framedef name="tokenbagasset">
 		<bitmap file="graphics/frames/fielddark.png" />
 		<offset>12,12,12,12</offset>

@@ -121,7 +121,6 @@
 	<icon name="module_loading" file="graphics/icons/module_loading.png" />
 	<icon name="module_unloading" file="graphics/icons/module_unloading.png" />
 	<icon name="module_statenone" file="graphics/icons/module_statenone.png" />
-	<icon name="module_statepending" file="graphics/icons/module_statepending.png" />
 	<icon name="module_stateblocked" file="graphics/icons/module_stateblocked.png" />
 	<icon name="module_stateallowed" file="graphics/icons/module_stateallowed.png" />
 	<icon name="module_remote" file="graphics/icons/module_remote.png" />
